@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if test -f /tmp/packing/etc/php_modules
+	 then
+	 	
+	  fi
+	 
+
+	 

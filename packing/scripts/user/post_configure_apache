@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ /tmp/packing/scripts/spaces/user/add_php_modules
+ if test -f /tmp/packing/scripts/user/post_configure_php
+	 then 
+	 	 /tmp/packing/scripts/user/post_configure_php
+fi	 	 
