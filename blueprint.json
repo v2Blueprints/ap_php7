@@ -13,13 +13,11 @@
 			"TZ": "^^TZ^^"
 		}
 	},
-	"os_packages": [
-		{
-			"adds": [
-				"php"
-			]
-		}
-	],
+	"os_packages": {
+		"adds": [
+			"php"
+		]
+	},
 	"bindings": [
 		{
 			"type": "embed",
