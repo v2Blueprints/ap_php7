@@ -24,7 +24,7 @@
 		{
 			"type": "embed",
 			"descriptor": {
-				"repository": "https://github.com/v2Blueprints/apache"
+				"repository": "https://github.com/MarkRatjens/apache"
 			},
 			"variables": {
 				"port": "^^port^^",
