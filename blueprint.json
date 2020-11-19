@@ -1,42 +1,17 @@
 {
 	"title": "php apache",
 	"description": "php apache web Server",
-	"configuration": {
-		"TZ": "^^TZ^^",
-		"port": "^^port^^",
-		"servername": "^^server_name^^",
-		"locale": "^^locale^^",
-		"charset": "^^charset^^"
+	"os_packages": {
+		"adds": [
+			"php"
+		]
 	},
-	"binding_anchor": {
-		"variables": {
-			"TZ": "^^TZ^^"
-		}
-	},
-	"os_packages": [
-		{
-			"adds": [
-				"php"
-			]
-		}
-	],
 	"bindings": [
 		{
 			"type": "embed",
 			"descriptor": {
 				"repository": "https://github.com/v2Blueprints/apache"
-			},
-			"variables": {
-				"port": "^^port^^",
-				"servername": "^^server_name^^",
-		        "locale": "^^locale^^",
-		        "charset": "^^charset^^"
 			}
-		}
-	],
-	"containers": [
-		{
-			"type": "lxd"
 		}
 	]
 }
