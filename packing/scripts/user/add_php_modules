@@ -1,9 +1,10 @@
 #!/bin/sh
-
-if test -f /tmp/packing/etc/php_modules
-	 then
-	 	
-	  fi
-	 
-
+ 
+if test -f /tmp/packing/etc/modules/php
+ then
+   for module in `cat /tmp/packing/etc/modules/php`
+    do
+       phpenmod $module
+    done        
+ fi
 	 
