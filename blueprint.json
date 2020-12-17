@@ -1,6 +1,9 @@
 {
 	"title": "php apache",
 	"description": "php apache web Server",
+	"configuration": {
+		"timezone_country_city": ""
+	},
 	"system_packages": {
 		"adds": [
 			"php"
