@@ -1,6 +1,8 @@
 {
-	"title": "php apache",
-	"description": "php apache web Server",
+	"about": {
+		"title": "php apache",
+		"explanation": "php apache web Server"
+	},
 	"configuration": {
 		"timezone_country_city": ""
 	},
