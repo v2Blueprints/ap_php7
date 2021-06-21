@@ -1,11 +1,11 @@
 #note this is including what was in apache
-From: enginesd_debian_base  #Note image name here is too long 
+From enginesd_debian_base  #Note image name here is too long 
 
 #Only required if configuration overides base configuration params 
-RUN /tmp/packing/scripts/early/locale &\\
-    /tmp/packing/scripts/early/set_time_zone &\\
+RUN /tmp/packing/scripts/early/locale &&\
+    /tmp/packing/scripts/early/set_time_zone &&\
     /tmp/packing/scripts/early/repos 
     
-RUN ENGINES_PACKAGES="apache2 php" /tmp/packing/scripts/late/install-packages
+RUN /tmp/packing/scripts/late/install-packages apache2 php 
 
 ADD packing/late/ /
