@@ -3,14 +3,16 @@
 		"title": "php apache",
 		"explanation": "php apache web Server"
 	},
-	"configuration": {
-		"timezone_country_city": ""
-	},
 	"system_packages": {
 		"adds": [
 			"php"
 		]
 	},
+	"binding_target": {
+    "TZ": "Australia/Sydney",
+    "port": 8880,
+    "ServerAdmin": "Apache Admin"
+  },
 	"bindings": [
 		{
 			"type": "embed",
