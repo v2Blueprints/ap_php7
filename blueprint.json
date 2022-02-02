@@ -9,9 +9,11 @@
 		]
 	},
 	"binding_target": {
-    "TZ": "Australia/Sydney",
-    "port": 8880,
-    "ServerAdmin": "Apache Admin"
+		"configuration" : {
+			"TZ": "Australia/Sydney",
+	    "port": 8880,
+	    "ServerAdmin": "Apache Admin"
+		}
   },
 	"bindings": [
 		{
