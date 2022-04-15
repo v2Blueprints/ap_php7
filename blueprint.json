@@ -1,26 +1,27 @@
 {
-	"about": {
-		"title": "php apache",
-		"explanation": "php apache web Server"
-	},
-	"system_packages": {
-		"adds": [
-			"php"
-		]
-	},
-	"binding_target": {
-		"configuration" : {
-			"TZ": "Australia/Sydney",
-	    "port": 8880,
-	    "ServerAdmin": "Apache Admin"
-		}
+  "identifier": "ap_php7",
+  "about": {
+    "title": "php apache",
+    "explanation": "php apache web Server"
   },
-	"bindings": [
-		{
-			"type": "embed",
-			"target": {
-				"repository": "https://github.com/v2Blueprints/apache"
-			}
-		}
-	]
+  "system_packages": {
+    "adds": [
+      "php"
+    ]
+  },
+  "binding_target": {
+    "configuration": {
+      "TZ": "Australia/Sydney",
+      "port": 8880,
+      "ServerAdmin": "Apache Admin"
+    }
+  },
+  "bindings": [
+    {
+      "type": "embed",
+      "target": {
+        "repository": "https://github.com/v2Blueprints/apache"
+      }
+    }
+  ]
 }
